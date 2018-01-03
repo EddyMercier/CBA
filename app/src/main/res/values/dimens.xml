@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="nav_header_vertical_spacing">10dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+
+    <dimen name="icon_margin">2dp</dimen>
+
+    <dimen name="textAppearanceSmall">?android:attr/textAppearanceSmall</dimen>
+    <dimen name="textAppearanceMedium">?android:attr/textAppearanceMedium</dimen>
+    <dimen name="textAppearanceLarge">?android:attr/textAppearanceLarge</dimen>
+    <dimen name="textSizeTitre1">20sp</dimen>
+    <dimen name="textSizeTitre2">17sp</dimen>
+    <dimen name="textSizeNormal">15sp</dimen>
+
+    <!--Floating action button-->
+    <dimen name="design_fab_image_size" override="true">36dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fd05ff</color>
+    <color name="colorPrimaryDark">#aa03ac</color>
+    <color name="colorAccent">#05f005</color>
+    <color name="colorAccentDark">#007200</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="color_cat_musique">#BC3CA3</color>
+    <color name="color_cat_scene">#B86109</color>
+    <color name="color_cat_cinema">#469B11</color>
+    <color name="color_cat_litterature">#656762</color>
+    <color name="color_cat_artvisuel">#2210D2</color>
+    <color name="color_cat_sculpture">#4297D7</color>
+    <color name="color_cat_architecture">#009E50</color>
+    <color name="color_cat_pluridicipline">#AE0518</color>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+        <!--          android:paddingTop="@dimen/nav_header_vertical_spacing"  -->
+    <ImageView
+        android:id="@+id/navheadermain_userAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:gravity="bottom"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/navheadermain_tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/navheadermain_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salut mon pot !" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@color/colorAccentDark" >
+
+        <TextView
+            android:id="@+id/navheadermain_userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:text="EMAIL COMPTE DE L'UTILISATEUR" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
