@@ -30,4 +30,7 @@
     <string name="toast_con_int_AccessError">\nVérifier vos autorisations auprès de votre provider...</string>
     <string name="title_activity_afficher_events">Afficher_events</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_fragment_events">Fragment liste events</string>
+    <string name="hello_fragment_lieux">Fragment liste lieux</string>
 </resources>
