@@ -51,7 +51,8 @@
             android:id="@+id/navheadermain_userEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="12dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"
             android:text="EMAIL COMPTE DE L'UTILISATEUR" />
 
 

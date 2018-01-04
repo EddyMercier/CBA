@@ -18,7 +18,11 @@
     <string name="icttl_nav_user_lieux">Mes lieux</string>
     <string name="icttl_nav_user_fav">Mes favoris</string>
     <string name="icttl_nav_user_profil">Mon profil</string>
-
+<!--
+    <string name="ttl_bar_events">Événements</string>
+    <string name="ttl_bar_lieux">Lieux</string>
+    <string name="ttl_bar_favoris">Favoris</string>
+  -->
     <string name="icttl_nav_share">Partager l\'application</string>
 
     <string name="menu_group_all">Données générales</string><!-- Pas utilisé -->
@@ -30,7 +34,7 @@
     <string name="toast_con_int_AccessError">\nVérifier vos autorisations auprès de votre provider...</string>
     <string name="title_activity_afficher_events">Afficher_events</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Vérifier ces textes dans les fragments, supprimer si nécessaire -->
     <string name="hello_fragment_events">Fragment liste events</string>
     <string name="hello_fragment_lieux">Fragment liste lieux</string>
 </resources>

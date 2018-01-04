@@ -18,13 +18,14 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
-
+<!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="+id/Toolbar/TextView'"
 
                 />
+-->
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
