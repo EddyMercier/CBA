@@ -9,6 +9,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
+        android:id="@+id/textContentMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="content_main"
@@ -17,4 +18,5 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 <!-- Mettre ici la liste Fragment -->
+
 </android.support.constraint.ConstraintLayout>
