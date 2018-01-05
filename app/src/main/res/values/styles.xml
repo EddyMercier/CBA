@@ -14,6 +14,43 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="AppTheme.Event.Description" parent="AppTheme.NoActionBar">
+        <item name="android:textAppearance">@dimen/textAppearanceSmall</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">0sp</item>
+        <item name="android:textSize">@dimen/textSizeTitre3</item>
+        <item name="android:textColor">@color/gris90</item>
+    </style>
+
+    <style name="AppTheme.Event.Lieu" parent="AppTheme.Event.Description">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textStyle">normal|bold</item>
+        <item name="android:textSize">@dimen/textSizeTitre1</item>
+        <item name="android:textColor">@color/colorAccentDark</item>
+    </style>
+    <style name="AppTheme.Event.Titre" parent="AppTheme.Event.Description">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textAppearance">@dimen/textAppearanceMedium</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textSize">@dimen/textSizeTitre2</item>
+        <item name="android:textColor">@color/gris90</item>
+    </style>
+
+    <style name="AppTheme.Event.Date" parent="AppTheme.Event.Lieu">
+        <item name="android:layout_marginTop">2sp</item>
+        <item name="android:textSize">@dimen/textSizeTitre2</item>
+        <item name="android:textColor">@color/gris80</item>
+    </style>
+
+    <style name="AppTheme.Event.Heure" parent="AppTheme.Event.Lieu">
+        <item name="android:layout_marginTop">2sp</item>
+        <item name="android:textSize">@dimen/textSizeTitre2</item>
+        <item name="android:textColor">@color/gris60</item>
+    </style>
+
+
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

@@ -7,7 +7,9 @@
 
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
-
+    <color name="gris90">#1a1a1a</color>
+    <color name="gris80">#333333</color>
+    <color name="gris60">#666666</color>
 
     <color name="color_cat_musique">#BC3CA3</color>
     <color name="color_cat_scene">#B86109</color>
