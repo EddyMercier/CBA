@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Layout pour une fiche event   L1 -->
+<!-- Layout pour une fievent_rowvent   L1 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/eventbloc"
     android:layout_width="match_parent"
