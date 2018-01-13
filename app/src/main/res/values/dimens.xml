@@ -5,15 +5,21 @@
     <dimen name="nav_header_vertical_spacing">10dp</dimen>
     <dimen name="nav_header_height">200dp</dimen>
 
-    <dimen name="icon_margin">1dp</dimen>
+    <dimen name="icon_margin">2dp</dimen>
 
     <dimen name="textAppearanceSmall">?android:attr/textAppearanceSmall</dimen>
     <dimen name="textAppearanceMedium">?android:attr/textAppearanceMedium</dimen>
     <dimen name="textAppearanceLarge">?android:attr/textAppearanceLarge</dimen>
-    <dimen name="textSizeTitre1">15sp</dimen>
-    <dimen name="textSizeTitre2">13sp</dimen>
-    <dimen name="textSizeTitre3">12sp</dimen>
-    <dimen name="textSizeNormal">13sp</dimen>
+    <!-- Dimensions pour l'affichage des listes -->
+    <dimen name="textSizeTitre1Row">15sp</dimen>
+    <dimen name="textSizeTitre2Row">13sp</dimen>
+    <dimen name="textSizeTitre3Row">12sp</dimen>
+    <dimen name="textSizeNormalRow">13sp</dimen>
+    <!-- Dimensions pour l'affichage des éléments seuls -->
+    <dimen name="textSizeTitre1">18sp</dimen>
+    <dimen name="textSizeTitre2">16sp</dimen>
+    <dimen name="textSizeTitre3">15sp</dimen>
+    <dimen name="textSizeNormal">16sp</dimen>
 
     <!--Floating action button-->
     <dimen name="design_fab_image_size" override="true">36dp</dimen>

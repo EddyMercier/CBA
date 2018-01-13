@@ -31,7 +31,7 @@
                 android:gravity="top"/>
             <TextView
                 android:id="@+id/eventprix"
-                style="@style/AppTheme.Event.Titre"
+                style="@style/AppTheme.Event_Row.Titre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -66,14 +66,14 @@
 
                  <TextView
                      android:id="@+id/lieutitre"
-                     style="@style/AppTheme.Event.Lieu"
+                     style="@style/AppTheme.Event_Row.Lieu"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:text="Nom du lieu" />
 
                  <TextView
                       android:id="@+id/eventdate"
-                      style="@style/AppTheme.Event.Date"
+                      style="@style/AppTheme.Event_Row.Date"
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_alignBaseline="@+id/lieutitre"
@@ -82,7 +82,7 @@
 
                  <TextView
                      android:id="@+id/eventtitre"
-                     style="@style/AppTheme.Event.Titre"
+                     style="@style/AppTheme.Event_Row.Titre"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:layout_below="@id/lieutitre"
@@ -90,7 +90,7 @@
 
                  <TextView
                      android:id="@+id/eventheure"
-                     style="@style/AppTheme.Event.Heure"
+                     style="@style/AppTheme.Event_Row.Heure"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:layout_alignBaseline="@+id/eventtitre"
@@ -105,7 +105,7 @@
                  android:layout_height="wrap_content">
                  <TextView
                      android:id="@+id/eventdescription"
-                     style="@style/AppTheme.Event.Description"
+                     style="@style/AppTheme.Event_Row.Description"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_alignParentRight="true"

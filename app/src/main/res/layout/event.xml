@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout pour un event seul   L1 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventbloc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+    android:id="@+id/eventimageetreste1bt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:baselineAligned="false">
+
+        <ImageView
+            android:id="@+id/eventimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="top|left"/>
+
+        <RelativeLayout
+            android:id="@+id/eventtitrelieux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/eventimage"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/lieutitre"
+                style="@style/AppTheme.Event.Lieu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom du lieu" />
+
+
+            <TextView
+                android:id="@+id/eventtitre"
+                style="@style/AppTheme.Event.Titre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/lieutitre"
+                android:text="Titre de l'événement" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/eventdateheure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/eventimage"
+            android:layout_below="@id/eventtitrelieux">
+
+        <TextView
+            android:id="@+id/eventdate"
+            style="@style/AppTheme.Event.Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30/12/2018" /><!-- android:layout_alignParentRight="true" -->
+
+        <TextView
+            android:id="@+id/eventheure"
+            style="@style/AppTheme.Event.Heure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventdate"
+            android:text="HH:mm" />
+
+        <TextView
+            android:id="@+id/eventprix"
+            style="@style/AppTheme.Event.Titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Prix €" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/eventdescription2bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:baselineAligned="false">
+
+        <TextView
+            android:id="@+id/eventdescription"
+            style="@style/AppTheme.Event.Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Description en toute lettre de l'événement qui est inscrit ici pour que tout le monde le voit." />
+
+    </RelativeLayout>
+</LinearLayout>
