@@ -20,4 +20,16 @@
     <color name="color_cat_architecture">#D0BE20</color>
     <color name="color_cat_pluridicipline">#AE0518</color>
 
+    <array name="color_catARRAY">
+        <item>#BC3CA3</item>
+        <item>#B86109</item>
+        <item>#469B11</item>
+        <item>#656762</item>
+        <item>#2210D2</item>
+        <item>#4297D7</item>
+        <item>#D0BE20</item>
+        <item>#AE0518</item>
+    </array>
+
+
 </resources>
